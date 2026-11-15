@@ -144,3 +144,23 @@ footer {
         justify-content: space-around;
     }
 }
+/* Banner & Error Message CSS */
+#notification-banner {
+    display: none;
+    background-color: var(--hopeful-orange);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.error-msg {
+    color: red;
+    font-size: 0.85rem;
+    display: none;
+    margin-bottom: 10px;
+    margin-top: -3px;
+}
+
+
